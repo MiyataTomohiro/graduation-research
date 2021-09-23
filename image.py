@@ -4,6 +4,7 @@ from PIL import Image
 import numpy as np
 from keras.preprocessing.image import array_to_img, img_to_array, load_img
 
+# 画像のパラメータ(サイズ、チャンネル数)
 img_rows = 256
 img_cols = 256
 channels = 3
